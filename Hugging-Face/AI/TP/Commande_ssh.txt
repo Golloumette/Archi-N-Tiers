@@ -1,0 +1,7 @@
+Exo 1 Envoie de commande au serveur
+	
+ ssh -i ~/.ssh/test/id_rsa user@localhost -p 2222 ls
+
+Exo 2 Envoie de fichier au serveur 
+
+scp -P 2222 -i ~/.ssh/test/id_rsa C:\Users\carol\Pictures\mercy.png user@localhost:
